@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Define metadatos, es decir, información sobre datos en un documento HTML. Las etiquetas <meta> van dentro del elemento <head> y se utilizan para especificar el conjunto de caracteres, el autor del documento, la configuración de la ventana gráfica, etc.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <!--Comprende la información del documento que será interpretada por el navegador (metadatos). Por ejemplo, título del documento, enlaces a hojas de estilo, etc.-->
+  <body>
+    <!--Es donde se ubica todo el contenido de texto, imagen y video, en el que el usuario ve e interactúa, en el que los contenidos son estructurados por las demás etiquetas HTML.-->
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__home__link" href="index.html">Home</a>
+            <a class="header__home__link" href="about.html">Sobre Mí</a>
+        </nav>
+    </header>
+    <main class="presentacion">
+      <section class="presentacion__contenido">
+        <h1 class="presentacion__contenido__titulo">
+          Eleve tu negocio digital a otro nivel
+          <strong class="titulo-destaque">un Front-end de calidad! </strong>
+        </h1>
+        <p class="presentacion__contenido__texto">
+          ¡Hola! Soy Ana García, desarrolladora Front-end con especialización en
+          React, HTML y CSS. Ayudo a pequeños negocios y diseñadores a llevar a
+          cabo buenas ideas. ¿Hablamos?
+        </p>
+    <div class="presentacion__enlaces">
+        <h2 class="presentacion__enlaces__subtitulo">Accede a mis redes:</h2>
+        <a class="presentacion__clases__link" href="https://www.instagram.com/">
+            <img src="./assets/instagram.png">
+            Instagram</a>
+        <a class="presentacion__clases__link" href="https://github.com/">
+            <img src="./assets/github.png">
+            GitHub</a>
+    </div>
+      </section>
+      <img class="presentacion__imagen" src="./assets/Imagem.png" alt="Imagen de Ana García Trabajando Contenta" />
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Carlos Cardona</p>
+    </footer>
+  </body>
+</html>
